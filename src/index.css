@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  th,
+  td {
+    @apply border border-slate-600 p-4 pl-8 text-slate-400;
+  }
+
+  th {
+    @apply bg-slate-700 font-medium text-slate-100;
+  }
+}
