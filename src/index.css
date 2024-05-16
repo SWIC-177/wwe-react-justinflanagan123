@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply flex min-h-screen min-w-80 place-content-center bg-slate-900 text-slate-500;
+  }
   th,
   td {
     @apply border border-slate-600 p-4 pl-8 text-slate-400;
